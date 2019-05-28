@@ -1,0 +1,181 @@
+.game-layout-container{
+    display: none;
+}
+
+#layout-container-z1r {
+    display: block;
+}
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --sidebar-width: 724px;
+    --puwp-blue: #0084ff;
+}
+
+.wrapper {
+    background: url('../../img/game-layout/z1r.png') no-repeat;
+    font-family: "Chosence", sans-serif;
+    color: white;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sidebar {
+    position: absolute;
+    right: 0;
+    width: var(--sidebar-width);
+    height: 1080px;
+    font-size: 48px;
+}
+
+.game-name {
+    position: absolute;
+    width: var(--sidebar-width);
+    height: 98px;
+    line-height: 98px;
+    text-align: center;
+	left: 51px;
+}
+
+.runner-details {
+    position: absolute;
+    right: 633px;
+    width: 597px;
+    height: 80px;
+    top: -2px;
+}
+
+.runner-details1 {
+    position: absolute;
+    right: 1280px;
+    width: 597px;
+    height: 80px;
+    top: -2px;
+}
+.runner-details2 {
+    position: absolute;
+    right: 633px;
+    width: 597px;
+    height: 80px;
+    top: -2px;
+}
+.runner-details3 {
+    position: absolute;
+    right: 1280px;
+    width: 597px;
+    height: 80px;
+    top: 526px;
+}
+.runner-details4 {
+    position: absolute;
+    right: 633px;
+    width: 597px;
+    height: 80px;
+    top: 526px;
+}
+
+.runner-name {
+    position: absolute;
+    left: 24px;
+    width: 170px;
+    height: 80px;
+    line-height: 80px;
+    color: var(--puwp-blue);
+    font-size: 38px;
+	top: 2px;
+    text-align: center;
+}
+
+.pronouns {
+    position: absolute;
+font-size: 18px;
+right: 575px;
+top: 22px;
+height: 80px;
+width: 38px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.footer-left {
+    position: absolute;
+    left: 0;
+    width: 206px;
+    height: 131px;
+}
+
+.donation-total{
+    position: absolute;
+    bottom: 0;
+    width: var(--sidebar-width);
+    height: 146px;
+    line-height: 146px;
+    font-size: 100px;
+    text-align: center;
+	left: 38px;
+}
+
+.timer {
+    position: absolute;
+    top: 132px;
+    right: 37px;
+    width: 328px;
+    height: 80px;
+    line-height: 80px;
+    text-align: right;
+    color: var(--puwp-blue);
+    font-size: 72px;
+}
+
+.game-details {
+    display: flex;
+    position: absolute;
+    font-size: 36px;
+    top: 232px;
+
+    left: 102px;
+}
+
+.cell {
+    min-width: 150px;
+    height: 45px;
+}
+
+.game-detail {
+    color: var(--puwp-blue);
+}
+
+.finish-time {
+    background-color: var(--puwp-blue);
+    color: white;
+    padding: 5px;
+    width: 125px;
+    height: 44px;
+    font-size: 40px;
+    margin: 0;
+    position: absolute;
+}
+
+.finish-time-runner1 {
+    top: 66px;
+    left: -19px;
+}
+
+.finish-time-runner2 {
+    top: 66px;
+    left: -19px;
+}
+
+.finish-time-runner3 {
+    top: 66px;
+    left: -19px;
+}
+
+.finish-time-runner4 {
+    top: 66px;
+    left: -19px;
+}
