@@ -86,7 +86,7 @@ body{
 
 .game-detail {
     font-size: 30px;
-    color: #0084ff;
+    color: var(--text-color);
     min-width: 80px;
     padding-right: 20px;
 }
@@ -103,7 +103,7 @@ body{
     right: 0;
     top: 10px;
     font-size: 30px;
-    color: #0084ff;
+    color: var(--text-color);
 }
 
 .runner-name {

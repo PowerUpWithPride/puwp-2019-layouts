@@ -11,7 +11,6 @@ body{
     padding: 0;
     margin: 0;
     --sidebar-width: 495px;
-    --puwp-blue: #0084ff;
 }
 
 .wrapper {
@@ -54,7 +53,7 @@ body{
     width: 208px;
     height: 46px;
     line-height: 46px;
-    color: var(--puwp-blue);
+    color: var(--text-color);
     font-size: 30px;
     text-align: center;
 }
@@ -83,7 +82,7 @@ body{
     width: 208px;
     height: 46px;
     line-height: 46px;
-    color: var(--puwp-blue);
+    color: var(--text-color);
     font-size: 30px;
     text-align: center;
 }
@@ -112,7 +111,7 @@ body{
     width: 208px;
     height: 46px;
     line-height: 46px;
-    color: var(--puwp-blue);
+    color: var(--text-color);
     font-size: 30px;
     text-align: center;
 }
@@ -156,7 +155,7 @@ body{
     height: 80px;
     line-height: 80px;
     text-align: right;
-    color: var(--puwp-blue);
+    color: var(--text-color);
     font-size: 72px;
 }
 
@@ -174,5 +173,5 @@ body{
 }
 
 .game-detail {
-    color: var(--puwp-blue);
+    color: var(--text-color);
 }

@@ -3,10 +3,16 @@
     src: url('../fonts/Chosence_Regular.otf');
 }
 
-/*.timer_paused {*/
-    /*color: orange;*/
-/*}*/
+/* Common colour definitions. */
+body {
+    --text-color: #502c69;
+    --text-color-alt: #ff8200;
+}
 
-/*.timer_finished {*/
-    /*color: lightgreen;*/
-/*}*/
+/* Common definitions for game layouts. */
+.finish-time {
+    background-color: var(--text-color);
+    color: white;
+    margin: 0;
+    position: absolute;
+}

@@ -10,8 +10,6 @@ body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
-    --puwp-blue: #0084ff;
 }
 
 .wrapper {
@@ -87,7 +85,7 @@ body{
 }
 
 .game-detail {
-    color: #0084ff;
+    color: var(--text-color);
     width: 150px;
 }
 
@@ -123,7 +121,7 @@ body{
     width: 359px;
     height: 80px;
     line-height: 80px;
-    color: var(--puwp-blue);
+    color: var(--text-color);
     font-size: 55px;
     text-align: center;
 }
@@ -154,7 +152,7 @@ body{
     width: 444px;
     height: 80px;
     line-height: 80px;
-    color: var(--puwp-blue);
+    color: var(--text-color);
     font-size: 55px;
     text-align: center;
 }
@@ -215,12 +213,10 @@ width: 1920px;
     width: 350px;
     height: 130px;
     line-height: 130px;
-    color: var(--puwp-blue);
+    color: var(--text-color);
 }
 
 .finish-time {
-    background-color: var(--puwp-blue);
-    color: white;
     padding: 5px;
     width: 125px;
     height: 44px;

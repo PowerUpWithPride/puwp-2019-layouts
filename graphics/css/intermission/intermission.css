@@ -6,7 +6,6 @@ body {
     padding: 0;
     margin: 0;
     --sidebar-width: 554px;
-    --puwp-blue: #0084ff;
 }
 
 .wrapper {
@@ -50,7 +49,7 @@ body {
     height: 60px;
     line-height: 60px;
     font-size: 48px;
-    color: var(--puwp-blue);
+    color: var(--text-color);
     background: white;
 }
 
@@ -59,7 +58,7 @@ body {
     padding-top: 4px;
     min-height: 100px;
     width: 470px;
-    background: var(--puwp-blue);
+    background: var(--text-color);
 }
 
 .coming-up-runner {
@@ -72,13 +71,13 @@ body {
 }
 
 .on-deck-title {
-    color: var(--puwp-blue);
+    color: var(--text-color);
     padding-left: 20px;
 }
 
 .on-deck-info {
     margin-bottom: 10px;
-    background: var(--puwp-blue);
+    background: var(--text-color);
     padding-left: 20px;
     min-height: 100px;
     width: 470px;
@@ -104,7 +103,7 @@ body {
     height: 60px;
     line-height: 60px;
     font-size: 48px;
-    color: var(--puwp-blue);
+    color: var(--text-color);
     background: white;
 }
 
@@ -115,7 +114,7 @@ body {
 
 .incentive {
     margin-bottom: 10px;
-    background: var(--puwp-blue);
+    background: var(--text-color);
     padding-left: 20px;
     height: 170px;
     width: 470px;
@@ -176,7 +175,7 @@ body {
     height: 60px;
     line-height: 60px;
     font-size: 48px;
-    color: var(--puwp-blue);
+    color: var(--text-color);
     background: white;
 }
 
@@ -185,7 +184,7 @@ body {
 }
 
 .bid-wars-wrapper {
-    background: var(--puwp-blue);
+    background: var(--text-color);
     padding-left: 20px;
     padding-bottom: 20px;
     padding-top: 10px;
@@ -193,7 +192,7 @@ body {
 }
 
 .bid {
-    background: var(--puwp-blue);
+    background: var(--text-color);
     height: 44px;
     width: 440px;
     margin-top: 10px;
@@ -209,7 +208,7 @@ body {
     height: 44px;
     line-height: 44px;
     padding-left: 10px;
-    color: #00417d;
+    color: var(--text-color);
 }
 
 .bid-progress-full{
