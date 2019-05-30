@@ -116,5 +116,5 @@ body{
 }
 
 .game-detail {
-    color: var(--text-color);
+    color: var(--text-color-alt);
 }

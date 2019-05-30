@@ -97,6 +97,7 @@ body{
 .cell-value {
     min-width: 250px;
     height: 42px;
+    color: var(--text-color-alt);
 }
 
 .footer-mid-right {
