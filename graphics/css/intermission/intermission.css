@@ -24,16 +24,49 @@ body {
     width: var(--sidebar-width);
     height: 1080px;
     font-size: 48px;
+    background-color: #2c304b;
+}
+
+.event-name {
+    position: absolute;
+    background-color: var(--text-color);
+    color: white;
+    font-size: 60px;
+    width: var(--sidebar-width);
+    height: 120px;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.charity-logo-container {
+    position: absolute;
+    width: var(--sidebar-width);
+    text-align: center;
+    padding: 20px;
+    bottom: 144px;
+}
+
+#charity-logo {
+    width: 80%;
 }
 
 .donation-total{
     position: absolute;
     bottom: 0;
+    background-color: var(--text-color);
     width: var(--sidebar-width);
     height: 144px;
     line-height: 144px;
     font-size: 100px;
     text-align: center;
+}
+
+.music-credits {
+    position: absolute;
+    padding: 20px;
+    font-size: 48px;
+    bottom: 0;
+    right: 0;
 }
 
 .schedule {
