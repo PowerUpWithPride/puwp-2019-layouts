@@ -16,6 +16,7 @@
     </script>
     <script src="js/utils.js"></script>
     <script src="js/donations.js"></script>
+    <script src="js/intermission/music.js"></script>
     <script src="js/intermission/run-info.js"></script>
 </head>
 <body>
@@ -123,11 +124,19 @@
                 </div>
             </div>
             <div class="charity-logo-container">
-                <img id="charity-logo" src="img/intermission/trevor_project_logo.png">
+                <img id="charity-logo" src="img/intermission/trevor_project_logo.png" alt="Trevor Project logo">
             </div>
             <div class="donation-total"></div>
         </div>
-        <div class="music-credits">Music By Chillhop.com</div>
+        <div class="currently-playing">
+            <div>Currently playing:</div>
+            <div id="current-artist" class="currently-playing-info"></div>
+            <div id="current-song" class="currently-playing-info"></div>
+        </div>
+        <div class="music-credits">
+            <div>Music by Dj CUTMAN supported by GameChops music</div>
+            <div class="playlist-link">http://bit.ly/vglounge</div>
+        </div>
     </div>
 </body>
 </html>
